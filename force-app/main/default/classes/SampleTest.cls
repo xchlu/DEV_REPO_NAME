@@ -21,7 +21,7 @@
 public class SampleTest {
   static testmethod void testAddOne() {
     Test.startTest();
-    System.assertEquals(Sample.addOne(100), 102);
+    System.assertEquals(Sample.addOne(100), 103);
     Test.stopTest();
   }
 }
